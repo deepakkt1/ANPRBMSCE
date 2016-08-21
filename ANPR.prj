@@ -1,0 +1,203 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3184332833" file="C:\drive\Project\code\Detection-Entry\ANPR.prj" location="C:\drive\Project\code\Detection-Entry" name="ANPR" preferred-package-location="C:\drive\Project\code\Detection-Entry\ANPR\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>ANPR</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Deepak K T</param.authnamewatermark>
+    <param.email>deepakkt2008@gmail.com</param.email>
+    <param.company>BMSCE</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\logo.jpg</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\BMSCE\ANPR\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\ANPR\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\ANPR\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\ANPR\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Application.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\1.jpg</file>
+      <file>${PROJECT_ROOT}\10.jpg</file>
+      <file>${PROJECT_ROOT}\11.jpg</file>
+      <file>${PROJECT_ROOT}\12.jpg</file>
+      <file>${PROJECT_ROOT}\14N.jpg</file>
+      <file>${PROJECT_ROOT}\15N.jpg</file>
+      <file>${PROJECT_ROOT}\18.jpg</file>
+      <file>${PROJECT_ROOT}\2.jpg</file>
+      <file>${PROJECT_ROOT}\20N.jpg</file>
+      <file>${PROJECT_ROOT}\5.jpg</file>
+      <file>${PROJECT_ROOT}\6N.jpg</file>
+      <file>${PROJECT_ROOT}\8.jpg</file>
+      <file>${PROJECT_ROOT}\9N.jpg</file>
+      <file>${PROJECT_ROOT}\Application.fig</file>
+      <file>${PROJECT_ROOT}\Application.m</file>
+      <file>${PROJECT_ROOT}\Classification.fig</file>
+      <file>${PROJECT_ROOT}\Classification.m</file>
+      <file>${PROJECT_ROOT}\Classify.m</file>
+      <file>${PROJECT_ROOT}\computeNumericalGradient.m</file>
+      <file>${PROJECT_ROOT}\Database11.accdb</file>
+      <file>${PROJECT_ROOT}\dbtest.m</file>
+      <file>${PROJECT_ROOT}\Detection.m</file>
+      <file>${PROJECT_ROOT}\displayData.m</file>
+      <file>${PROJECT_ROOT}\displayImage.m</file>
+      <file>${PROJECT_ROOT}\exp.txt</file>
+      <file>${PROJECT_ROOT}\FinalThetas.mat</file>
+      <file>${PROJECT_ROOT}\fmincg.m</file>
+      <file>${PROJECT_ROOT}\getImageHere.m</file>
+      <file>${PROJECT_ROOT}\Image2Matrix.m</file>
+      <file>${PROJECT_ROOT}\Image2Matrix1.m</file>
+      <file>${PROJECT_ROOT}\imagePredict.m</file>
+      <file>${PROJECT_ROOT}\imageRead.m</file>
+      <file>${PROJECT_ROOT}\initial.jpg</file>
+      <file>${PROJECT_ROOT}\logo.jpg</file>
+      <file>${PROJECT_ROOT}\main.m</file>
+      <file>${PROJECT_ROOT}\mainone.m</file>
+      <file>${PROJECT_ROOT}\mysql-connector-java-5.1.38</file>
+      <file>${PROJECT_ROOT}\mysql-connector-java-5.1.38-bin.jar</file>
+      <file>${PROJECT_ROOT}\mysql-connector-odbc-5.3.6-winx64.msi</file>
+      <file>${PROJECT_ROOT}\mysql-connector-odbc-noinstall-5.3.6-winx64</file>
+      <file>${PROJECT_ROOT}\nexp.txt</file>
+      <file>${PROJECT_ROOT}\nnCostFunction.m</file>
+      <file>${PROJECT_ROOT}\NumberPlate.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate1.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate10.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate11.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate12.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate13.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate2.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate3.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate4.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate5.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate6.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate7.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate8.jpg</file>
+      <file>${PROJECT_ROOT}\NumberPlate9.jpg</file>
+      <file>${PROJECT_ROOT}\out.mat</file>
+      <file>${PROJECT_ROOT}\postgresql-9.4.1208.jre6.jar</file>
+      <file>${PROJECT_ROOT}\predict.m</file>
+      <file>${PROJECT_ROOT}\predict1.m</file>
+      <file>${PROJECT_ROOT}\randInitializeWeights.m</file>
+      <file>${PROJECT_ROOT}\RecognizeNP.m</file>
+      <file>${PROJECT_ROOT}\Segmentation.m</file>
+      <file>${PROJECT_ROOT}\select.m</file>
+      <file>${PROJECT_ROOT}\sigmoid.m</file>
+      <file>${PROJECT_ROOT}\sigmoidGradient.m</file>
+      <file>${PROJECT_ROOT}\test.m</file>
+      <file>${PROJECT_ROOT}\test.mat</file>
+      <file>${PROJECT_ROOT}\testbox.mat</file>
+      <file>${PROJECT_ROOT}\TestData.mat</file>
+      <file>${PROJECT_ROOT}\testing.m</file>
+      <file>${PROJECT_ROOT}\TrainData.mat</file>
+      <file>${PROJECT_ROOT}\TrainedValues.mat</file>
+      <file>${PROJECT_ROOT}\tutorial.mdb</file>
+      <file>${PROJECT_ROOT}\vehicleDB.txt</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\ANPR\for_testing" name="splash.png" optional="false">C:\drive\Project\code\Detection-Entry\ANPR\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\ANPR\for_testing" name="readme.txt" optional="true">C:\drive\Project\code\Detection-Entry\ANPR\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\ANPR\for_testing" name="ANPR.exe" optional="false">C:\drive\Project\code\Detection-Entry\ANPR\for_testing\ANPR.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2015b</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

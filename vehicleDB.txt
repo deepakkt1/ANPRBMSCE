@@ -1,0 +1,9 @@
+Vehicle no  Entry Date and Time    Exit Date and Time Type Image path
+ A51M58377 26-Apr-2016 08:32:41 26-Apr-2016 08:33:15   Car C:\drive\Project\Code\ANPR\10.jpg
+ A51M58377 26-Apr-2016 09:18:36                  null  Car C:\drive\Project\Code\ANPR\10.jpg
+KA53MC3943 26-Apr-2016 09:20:03 26-Apr-2016 09:29:33  Bike C:\drive\Project\Code\ANPR\2.jpg
+KA02M05544 26-Apr-2016 09:21:39                  null Bike C:\drive\Project\Code\ANPR\1.jpg
+ KA05MM435 26-Apr-2016 09:22:43                  null  Car C:\drive\Project\Code\ANPR\8.jpg
+KA05M33725 26-Apr-2016 09:24:29                  null  Car C:\drive\Project\Code\ANPR\11.jpg
+AKA53FA5583 26-Apr-2016 09:25:40                  null Bike C:\drive\Project\Code\ANPR\18.jpg
+M45730525272 26-Apr-2016 09:27:00                  null Bike C:\drive\Project\Code\ANPR\20N.jpg
